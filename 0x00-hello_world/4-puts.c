@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 4-main -o a.out
+gcc 4-main.c
