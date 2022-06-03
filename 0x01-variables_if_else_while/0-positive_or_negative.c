@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(int argc, char *argv[])
+int main(void)
 {
 	int n;
 
