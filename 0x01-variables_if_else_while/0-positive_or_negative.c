@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/*this
+ * is
+ * the
+ * main
+ * function
+ */
 int main(void)
 {
 	int n;
