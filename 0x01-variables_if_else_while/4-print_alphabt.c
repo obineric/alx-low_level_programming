@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n;
-	char str[27] = "abcdfghijklmnoprstuvwxyz";
+	char str[25] = "abcdfghijklmnoprstuvwxyz";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
