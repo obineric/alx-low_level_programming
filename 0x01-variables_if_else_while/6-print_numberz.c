@@ -14,7 +14,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	putchar('0123456789');
+	for (n = 0; n < 10; n++)
+	{
+		putchar(str[n]);
+	}
 	putchar('\n');
 	return (0);
 }
