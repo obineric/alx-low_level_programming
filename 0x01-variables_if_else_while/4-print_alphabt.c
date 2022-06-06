@@ -15,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for (n = 0; n < 26; n++)
+	for (n = 0; n < 24; n++)
 	{
 		putchar(str[n]);
 	}
