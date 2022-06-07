@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Program to output the lowercase alphabets from a to z
  *
- * Return: 0
+ * Return: Always successful
  *
  */
 void print_alphabent(void)
