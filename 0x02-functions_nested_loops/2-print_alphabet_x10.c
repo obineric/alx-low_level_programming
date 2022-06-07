@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print lowercase alphabets 10 times
+ * print_alphabet - Print lowercase alphabets 10 times
  *
  * Return: Always successful
  *
