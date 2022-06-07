@@ -1,5 +1,5 @@
 void printWord(char* name)
 {
-	putchar(name);
+	putchar(char name);
 	putchar('\n');
 }
