@@ -4,15 +4,10 @@
 #include "main.h"
 /* more headers goes there */
 
-void printWord(char* name)
-{
-	putchar(name);
-	putchar('\n');
-}
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
