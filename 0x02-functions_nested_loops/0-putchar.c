@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Program to output _putchar to the standard output 
+ * main - Program to output _putchar to the standard output
  *
  * Return: 0
  *
