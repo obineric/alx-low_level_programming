@@ -5,9 +5,9 @@
  *
  * Return: 1 (successful), 0 (others)
  *
+ * @c: the charcter to test
  */
 int _islower(int c)
 {
-	\* the input c is checked to see if it is a lowercase letter
 	return (c >= 97 && c <= 122);
 }
