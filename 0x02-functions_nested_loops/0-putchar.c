@@ -7,10 +7,10 @@
  *
  */
 
-void printchar (void)
+void printchar(void)
 {
 	char c[9] = "_putchar";
-	int n
+	int n;
 
 	for (n=0; n<9; n++)
 	{
