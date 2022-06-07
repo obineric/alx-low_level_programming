@@ -8,12 +8,12 @@
  */
 void print_alphabent(void)
 {
-	char c[27] = "abcdefghijklmnopqrstuvwxyz";
+	char alp[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)
 	{
-		_putchar(c[i]);
+	_putchar(alp[i]);
 	}
 	_putchar('\n');
 }
