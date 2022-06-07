@@ -3,6 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
+void printWord(char* name)
+{
+	putchar(name'\n')
+}
 /**
  * main - Entry point
  *
@@ -14,7 +18,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	putchar("_putchar");
-	putchar('\n');
+	printWord("_putchar");
 	return (0);
 }
