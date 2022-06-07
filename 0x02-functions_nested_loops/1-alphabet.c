@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - Program to output the lowercase alphabets from a to z
+ * print_alphabet - Program to output the lowercase alphabets from a to z
  *
  * Return: 0
  *
  */
-void print_alphabent(void)/*funtion to print the lowercase alphabets*/
+void print_alphabent(void)
 {
 	char c[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
