@@ -1,19 +1,18 @@
-#include "main.h"
+#include  <main.h>
 
 /**
- * print_alphabet - Program to output the lowercase alphabets from a to z
+ * print_alphabet - Program to print the letters of the alphabets
  *
  * Return: Always successful
- *
  */
-void print_alphabent(void)
+void print_alphabet(void)
 {
 	char alp[27] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	int m;
 
-	for (i = 0; i < 26; i++)
+	for (m = 0; m < 26; m++)
 	{
-	_putchar(alp[i]);
+		_putchar(alp[m]);
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
