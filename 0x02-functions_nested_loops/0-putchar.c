@@ -14,6 +14,6 @@ void printchar (void)
 
 	for (n=0; n<9; n++)
 	{
-		_putchar(c[n])
+		_putchar(c[n]);
 	}
 }
