@@ -6,7 +6,8 @@
 
 void printWord(char* name)
 {
-	putchar(name'\n')
+	putchar(name);
+	putchar('\n');
 }
 /**
  * main - Entry point
