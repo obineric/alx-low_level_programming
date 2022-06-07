@@ -3,6 +3,8 @@
 /**
  * print_alphabet - Print lowercase alphabets 10 times
  *
+ * Decsription: A program that is designed to print the alphabets 10 times
+ *
  * Return: Always successful
  *
  */
