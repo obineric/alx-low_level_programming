@@ -6,7 +6,7 @@
  * Return: 0
  *
  */
-void print_alphabet(void)
+void print_alphabent(void)/*funtion to print the lowercase alphabets*/
 {
 	char c[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
