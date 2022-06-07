@@ -1,0 +1,1 @@
+void printWord(char* name)
