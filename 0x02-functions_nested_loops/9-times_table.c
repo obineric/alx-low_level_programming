@@ -18,15 +18,15 @@ void times_table(void)
 			if (j == 9)
 			{
 				result = i * j;
-				_printchar(result + '0');
-				_printchar('$')
+				_putchar(result + '0');
+				_putchar('$')
 			}
 			else
 			{
 				result = i * j;
-				_pritnchar(result + '0');
-				_printchar(',');
-				_printchar(' ');
+				_putchar(result + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 	}
