@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * add - Program to add two numbers
  *
  * @n: integer input
