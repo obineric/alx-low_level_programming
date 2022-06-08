@@ -19,7 +19,7 @@ void times_table(void)
 			{
 				result = i * j;
 				_putchar(result + '0');
-				_putchar('$')
+				_putchar('$');
 			}
 			else
 			{
