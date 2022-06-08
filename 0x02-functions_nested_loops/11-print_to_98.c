@@ -17,10 +17,11 @@ void print_to_98(int n)
 		{
 			printf("%d, ", i);
 		}
+		_putchar('\n');
 	}
 	else if (n == 98)
 	{
-		printf("%d", n);
+		printf("%d\n", n);
 	}
 	else
 	{
@@ -29,6 +30,7 @@ void print_to_98(int n)
 		{
 			printf("%d, ", j);
 		}
+		_putchar('\n')
 	}
 }
 
