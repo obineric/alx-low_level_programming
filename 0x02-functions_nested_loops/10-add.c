@@ -16,5 +16,5 @@ int add(int n, int j)
 
 	result = n + j;
 
-	_printchar('0' + result);
+	_putchar('0' + result);
 }
