@@ -3,6 +3,8 @@
 /**
  * print_sign - prints the sign of numbers
  *
+ *@n: number input
+ *
  * Return: -1,0,1
  */
 
