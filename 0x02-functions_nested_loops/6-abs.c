@@ -5,7 +5,7 @@
  *
  *@n: integer input
  *
- * Retun: nothing
+ * Return: absolute values
  */
 int _abs(int n)
 {
