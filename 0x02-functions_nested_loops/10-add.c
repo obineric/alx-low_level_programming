@@ -8,12 +8,9 @@
  *
  * @j: second integer input
  *
- * Return: returns 0
+ * Return: returns sum of the numbers
  */
 int add(int n, int j)
 {
-	int result;
-
-	result = n + j;
-	_putchar(result + '0');
+	return (n + j);
 }
