@@ -43,7 +43,8 @@ void times_table(void)
 				{
 					_putchar(result + '0');
 					_putchar(',');
-					_putchar('\t');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				else
 				{
@@ -52,7 +53,8 @@ void times_table(void)
 					_putchar(d1 + '0');
 					_putchar(d2 + '0');
 					_putchar(',');
-					_putchar('\t');
+					_putchar(' ');
+					_putchar(' ');
 				}
 			}
 		}
