@@ -2,8 +2,8 @@
 
 /**
  * print_diagonal - program to print the diagonal using \
- * 
- * @: input
+ *
+ * @n: input
  *
  * Return: void
  */
