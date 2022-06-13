@@ -11,7 +11,7 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	double i = 0;
 
 	while (i < strlen(str))
 	{
