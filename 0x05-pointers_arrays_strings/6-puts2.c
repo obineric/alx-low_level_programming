@@ -11,9 +11,10 @@
 
 void puts2(char *str)
 {
-	double i = 0;
+	int i = 0;
+	int j = strlen(str);
 
-	while (i < strlen(str))
+	while (i < j)
 	{
 		_putchar(str[i]);
 		i = i +2;
