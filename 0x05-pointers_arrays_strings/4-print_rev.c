@@ -8,11 +8,11 @@
  * Return: void
  */
 
-void print_rev(char *s)
+void print_rev(char *str)
 {
 	int i;
 
-	for (i = strlen(s); i >= 0; i--)
+	for (i = strlen(str); i >= 0; i--)
 	{
 		_putchar(s[i] + '0');
 	}
