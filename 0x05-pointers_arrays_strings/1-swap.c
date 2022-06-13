@@ -18,4 +18,4 @@ void swap_int(int *a, int *b)
 	tempb = *a;
 	*b = tempb;
 	*a = tempa;
-}:
+}
