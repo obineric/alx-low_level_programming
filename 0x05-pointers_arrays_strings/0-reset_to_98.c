@@ -5,7 +5,7 @@
  *
  * Return: void
  *
- * @*n: pointer address
+ * @n: pointer address
  */
 
 void reset_to_98(int *n)
