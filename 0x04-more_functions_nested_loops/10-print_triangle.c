@@ -10,10 +10,26 @@
 
 void print_triangle(int size)
 {
-	int i;
+	int i, m, j;
 
-	for (i = 0; i < size; i++)
+	if (size <= 0)
 	{
-		int m;
-		
-		for (m = 0, m < size - 1;
+		_putchar('\n');
+	}
+	else
+	{
+
+		for (i = 1; i <= size; i++)
+		{
+			for (m = 1; m <= (size - i); m++)
+			{
+				_putchar(' ');
+			}
+			for (j = 1; j <= i; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+}
