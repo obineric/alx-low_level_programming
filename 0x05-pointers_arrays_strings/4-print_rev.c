@@ -12,10 +12,13 @@
 void print_rev(char *s)
 {
 	int i;
+	char rev_word;
+	int j = 0;
 
 	for (i = strlen(s) - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		rev_word[j] = s[i];
+		j++
 	}
 	_putchar('\n');
 }
