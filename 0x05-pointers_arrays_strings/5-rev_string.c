@@ -2,20 +2,23 @@
 #include<string.h>
 
 /**
- * print_rev - prints letters in reverse
+ * rev_string - prints letters in reverse
  *
  * @s: string input
  *
  * Return: void
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i;
+	char rev_word;
+	int j = 0;
 
 	for (i = strlen(s) - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		rev_word[j] = s[i];
+		j++
 	}
 	_putchar('\n');
 }
