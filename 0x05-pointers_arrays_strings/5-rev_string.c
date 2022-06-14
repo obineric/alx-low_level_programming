@@ -13,7 +13,7 @@ void rev_string(char *s)
 {
 	int i;
 	char rev_word[1000];
-	int j = 0;
+	int j;
 
 	for (i = strlen(s) - 1; i >= 0; i--)
 	{
