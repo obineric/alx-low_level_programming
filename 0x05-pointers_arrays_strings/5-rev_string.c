@@ -11,17 +11,16 @@
 
 void rev_string(char *s)
 {
-	int i;
-	char rev_word[1000];
-	int j, k;
+	int i, k;
+	char rev_word[1000] = {0};
+	int j = 0;
 
 	for (i = strlen(s) - 1; i >= 0; i--)
 	{
 		rev_word[j] = s[i];
 		j++;
 	}
-	int length = strlen(rev_word);
-	for (k = 0; k < length; k++)
+	for (k = 0; k < strlen(rev_word); k++)
 	{
 		_putchar(rev_word[k]);
 	_putchar('\n');
