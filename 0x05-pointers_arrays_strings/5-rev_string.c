@@ -20,8 +20,10 @@ void rev_string(char *s)
 		rev_word[j] = s[i];
 		j++;
 	}
-	for (k = 0; k < strlen(rev_word); k++)
+	int length = strlen(rev_word);
+	for (k = 0; k < length; k++)
 	{
 		_putchar(rev_word[k]);
+	}
 	_putchar('\n');
 }
