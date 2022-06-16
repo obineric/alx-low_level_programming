@@ -14,8 +14,9 @@
 char _strcat(char *dest, char *src)
 {
 	char new_str[] = NULL;
+	char *pnew;
 	
 	dest = strcat(dest, src);
 	strcat(dest, '\0');
-	char * pnew = dest;
+	pnew = dest;
 }
