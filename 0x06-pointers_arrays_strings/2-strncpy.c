@@ -8,6 +8,8 @@
  * @src: source input
  *
  * @n: input to show limit
+ *
+ * Return: char
  */
 
 char *_strncpy(char *dest, char *src, int n)
