@@ -1,5 +1,5 @@
 #include "main.h"
-#include "holberton.h"
+
 /**
  * string_toupper - converts string to upper case.
  *
