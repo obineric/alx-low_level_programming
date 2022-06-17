@@ -13,9 +13,14 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *pnew = NULL;
+	int len_dest = (int) strlen(dest);
+	int len_src = (int) strlen(src);
+	int i;
 
-	dest = strcat(dest, src);
-	strcat(dest, '\0');
-	*pnew = dest;
+	for (i = 0; i < length && src[i] !=  '\0'; i++)
+	{
+		dest[len_dest + i] = src[i];
+	}
+	char *temp = &dest;
+	return temp;
 }
