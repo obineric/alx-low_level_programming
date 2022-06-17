@@ -1,5 +1,5 @@
 #include "main.h"
-#include "holberton.h"
+
 /**
  * cap_string - capitalize each word in a string
  *
