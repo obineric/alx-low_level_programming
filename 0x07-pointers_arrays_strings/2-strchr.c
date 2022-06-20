@@ -19,12 +19,11 @@ char *_strchr(char *s, char c)
 	{
 		if (*(s + i) == c)
 		{
-			break;
+			return (s + i);
 		}
 		else
 		{
-			return (safe);
+			return '\0';
 		}
 	}
-	return (s + i);
 }
