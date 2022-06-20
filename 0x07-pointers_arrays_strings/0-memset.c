@@ -15,10 +15,10 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i, *ptr;
-	int const *limit = (s + n);
+	int * const limit = s + n;
 
 	for (ptr = s; ptr < limit; ptr++)
 	{
-		*(ptr+i) = 'b';
+		(ptr+i) = 'b';
 	}
 }
