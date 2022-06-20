@@ -13,6 +13,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
+	char * safe = NULL;
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
@@ -22,7 +23,7 @@ char *_strchr(char *s, char c)
 		}
 		else
 		{
-			return (NULL);
+			return (safe);
 		}
 	}
 	return (s + i);
