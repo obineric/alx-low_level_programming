@@ -12,14 +12,14 @@
 
 char *_strchr(char *s, char c)
 {
-	int i, **ptr;
+	int i;
 
-	for (ptr = &s; ptr != '\0'; ptr++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		if (*ptr == c)
+		if (*(s + i) == c)
 		{
-			return (ptr);
+			break;
 		}
 	}
-	return (s);
+	return (s + i);
 }
