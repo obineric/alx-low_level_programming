@@ -20,12 +20,12 @@ char *_strchr(char *s, char c)
 	{
 		if (*(s + i) == c)
 		{
-			*ptr = (s + 1);
+			ptr = &(s + 1);
 			break;
 		}
 		else
 		{
-			*ptr = '\0';
+			**ptr = '\0';
 		}
 	}
 	return (*ptr);
