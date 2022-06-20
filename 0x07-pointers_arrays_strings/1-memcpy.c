@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - program to copy n part of the memory area of a string to another string 
+ * _memcpy - program to copy n part of the memory area of a string to another
  *
  * @dest: destination string
  *
