@@ -13,7 +13,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char * safe = NULL;
+	char * safe = o;
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
