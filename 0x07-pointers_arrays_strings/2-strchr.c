@@ -20,6 +20,10 @@ char *_strchr(char *s, char c)
 		{
 			break;
 		}
+		else
+		{
+			return (NULL);
+		}
 	}
 	return (s + i);
 }
