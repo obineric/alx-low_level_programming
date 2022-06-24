@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, char* argv[])
+
+/**
+ * main - entry point for program
+ * @argc: argument count
+ * @argv: array of arguments
+ * Return: zero is success and -1 is failed
+ */
+
+int main(int argc, char *argv[])
 {
 	int result = 0;
 
