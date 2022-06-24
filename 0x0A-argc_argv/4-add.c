@@ -5,11 +5,10 @@ int main(int argc, char* agrv[])
 {
 	while(*agrv++)
 	{
-		if (*agrv
+		if (atoi(*argv))
 	if (argc <= 1)
 	{
 		printf("ERROR\n");
 	}
 	else
 	{
-
