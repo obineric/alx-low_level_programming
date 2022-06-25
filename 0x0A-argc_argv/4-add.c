@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, char* agrv[])
+int main(int argc, char* argv[])
 {
-	int sum;\
+	int sum;
 
 	if (argc <= 1)
 	{
@@ -11,16 +11,16 @@ int main(int argc, char* agrv[])
 	}
 	else
 	{
-		while(*agrv++)
+		while(*argv++)
 		{
-			if (!(int(*argv)))
+			if (!(int)*argv)
 			{
 				printf("ERROR\n");
 				return (1);
 			}
 			else
 			{
-				sum =+ int(*argv);
+				sum =+ (int)*argv;
 				printf("%d\n", sum);
 			}
 		}
