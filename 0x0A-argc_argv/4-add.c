@@ -3,12 +3,28 @@
 
 int main(int argc, char* agrv[])
 {
-	while(*agrv++)
-	{
-		if (atoi(*argv))
+	int sum;\
+
 	if (argc <= 1)
 	{
-		printf("ERROR\n");
+		printf("0\n");
 	}
 	else
 	{
+		while(*agrv++)
+		{
+			if (!(int(*argv)))
+			{
+				printf("ERROR\n");
+				return (1);
+			}
+			else
+			{
+				sum =+ int(*argv);
+				printf("%d\n", sum);
+			}
+		}
+	}
+	return (0);
+}
+		
