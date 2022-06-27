@@ -39,13 +39,17 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	size_s1 = _strlen(s1);
 	size_s2 = _strlen(s2);
-	ptr =  realloc(s1, (size_s1 + size_s2 + 1) * sizeof(char));
+	ptr =  malloc(s1, (size_s1 + size_s2 + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
-	for (i = 0; i < size_s2; i++)
+	for (i = 0; i < (size_s1 + size_s2); i++)
 	{
-		*(ptr + size_s1 + i) = *(s2 + i);
+		if (i < size_s1)
+			*(ptr + i) = *(s1 + i);
+		else
+
+			*(ptr + i) = *(s2 + i - size_s1);
 	}
-	*(ptr + i) = '\0';
+	*(ptr + i + 1) = '\0';
 	return (ptr);
 }
