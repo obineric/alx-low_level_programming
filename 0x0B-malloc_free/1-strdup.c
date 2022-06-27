@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * _strdup - program tio copy a string to a memory location
- * _strlen - program to calculate length of string input
+ * _strlen - program to calculate length of string
  * @s: string input
+ * _strdup - program tio copy a string to a memory location
  * @str: string input
  * Return: array containing copied string
  */
