@@ -5,9 +5,7 @@
 /**
  * _strlen - program to calculate length of string
  * @s: string input
- * _strdup - program tio copy a string to a memory location
- * @str: string input
- * Return: array containing copied string
+ * Return: length
  */
 
 int _strlen(char *s)
@@ -20,6 +18,12 @@ int _strlen(char *s)
 		len++;
 	return (len);
 }
+/**
+ * _strdup - program to duplicate string
+ * @str: string input
+ * Return: char
+ */
+
 char *_strdup(char *str)
 {
 	char *ptr;
