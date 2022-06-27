@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup - program to copy a string to a memory location
+ * _strdup - program tio copy a string to a memory location
  * @str: string input
  * Return: array containing copied string
  */
@@ -11,7 +11,7 @@
 char *_strdup(char *str)
 {
 	char *ptr;
-	int i;
+	unsigned int i;
 	unsigned int size = sizeof(str) - 1;
 
 	if (str == NULL)
