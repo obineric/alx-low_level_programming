@@ -3,6 +3,24 @@
 #include "main.h"
 
 /**
+ * _strlen - calculates the length of a string
+ *
+ * @s: string input
+ * Return: Length in int
+ */
+int _strlen(char *s)
+{
+	int len;
+
+	len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
+}
+
+/**
  * str_concat - int _strlen(char *s)
  * @s1: input string 1
  * @s2: input string 2
