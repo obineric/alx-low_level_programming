@@ -4,25 +4,37 @@
 
 /**
  * _strdup - program tio copy a string to a memory location
+ * _strlen - program to calculate length of string input
+ * @s: string input
  * @str: string input
  * Return: array containing copied string
  */
 
+int _strlen(char *s)
+{
+	int len;
+
+	len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
+}
 char *_strdup(char *str)
 {
 	char *ptr;
-	unsigned int i;
-	unsigned int size = sizeof(str) - 1;
+	unsigned int i, size;
 
 	if (str == NULL)
 		return (NULL);
-	if (ptr == malloc(*str))
-		for (i = 0; i < size; i++)
-		{
-			ptr[i] = str[i];
-		}
-	else
+	size = _strlen(str);
+	ptr == malloc(sizeof(char) * size + 1);
+	if (ptr == NULL)
 		return (NULL);
+	for (i = 0; i < size; i++)
+	{
+		ptr[i] = str[i];
+	}
 	ptr[i] = '\0';
 	return (ptr);
 }
