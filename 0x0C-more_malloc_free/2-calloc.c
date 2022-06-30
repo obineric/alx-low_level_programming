@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdlib.h>
 /**
  * _calloc - allocates memmory of an array using malloc
